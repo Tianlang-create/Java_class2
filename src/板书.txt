@@ -1,0 +1,85 @@
+习
+-Java基础
+-Java基本语法
+- Java面向对象编程
+  - 基本概念：类、对象、成员变量、成员函数、实例化
+  - 对象名的引用性质
+  - 特殊的成员变量和成员函数：构造函数、“析构函数、函数重载、静态变量、静态函数
+  -面向对象的几个特性
+    -封装（Encapsulation）
+    -继承(Inheritance)
+    -多态(Polymorphism)
+- Java应用开发
+  - Java异常处理
+  - Java 常用 API（1）：java.lang包
+  - Java 常用 API（2）：java.util包
+  - Java 多线程开发
+  - JavaIO 操作：java.io
+-Java图形用户界面（GUI）开发
+ - 开发图形用户界面：javax.swing
+   - 框架容器
+     - javax.swing.JFrame：界面整体框架
+     - 通过setVisible()函数来显示
+     - 和JFrame有关的其他类：JWindow、JDialog
+   - 控件：界面上可以和用户进行操作的组件
+     - 预备知识：一般情况下，控件要加到一个容器：面板上，将面板加到界面上，面板是：javax.swing.JPanel
+     - 静态文本：javax.swing.JLabel
+     - 按钮：javax.swing.JButton
+     - 文本框：javax.swing.JTextField
+     - 密码框：javax.swing.JPasswordField
+     - 下拉菜单：javax.swing.JComboBox
+     - 复选框：javax.swing.JCheckBox
+     - 滚动条
+     ......
+     - 先查文档，了解功能，添加到界面
+
+
+   - 渲染：颜色、字体、图标
+      - 颜色：java.awt.Color
+        - 设置背景颜色：setBackground
+        - 设置前景颜色：setForeground
+      - 字体：java.awt.Font
+        - 设置字体：setFont
+      - 图标：
+        - 某些控件，在构造函数中支持图标，具体见文档
+      - 布局：如何自己控制控件在界面上的位置？
+       - 默认时，控件位置是从上到下，从左到右，放不下就另起一行，系统自动默认，这叫做流式布局
+        - 如何自己控制？
+          - 将界面布局设置为空布局
+          - 用setSize设置控件大小，setLocation设置控件位置
+
+-练习：让按钮从界面上方掉下来
+
+-练习：两个图标从左右方相向运动，碰到之后弹开
+
+-练习：一架飞机从上面飞下来，轨迹随机。底部有一个子弹，飞向飞机，命中之后，提示“XXX”
+
+第16章，自学
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
